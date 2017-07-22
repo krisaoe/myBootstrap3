@@ -6,8 +6,10 @@
 
 ### Link to this module
 ```
-$ npm link # in the myBootstrap3 directory
-$ cd ../ # back to project root folder
+# in the myBootstrap3 directory
+$ npm link
+# back to project root folder
+$ cd ../path-to-project
 $ npm link myBootstrap3
 ```
 
