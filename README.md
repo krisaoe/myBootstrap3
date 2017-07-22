@@ -16,5 +16,5 @@ $ npm link myBootstrap3
 # previously
 # import 'bootstrap-sass/dist/css/bootstrap.css'
 # using this package:
-import 'myBootstrap3/build/index.css'
+import 'myBootstrap3'
 ```
