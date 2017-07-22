@@ -1,0 +1,23 @@
+{
+  "name": "mybootstrap3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.css",
+  "scripts": {
+    "build": "node-sass-chokidar index.sass build/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisoae/myBootstrap3.git"
+  },
+  "author": "krisaoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisoae/myBootstrap3/issues"
+  },
+  "homepage": "https://github.com/krisoae/myBootstrap3#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "node-sass-chokidar": "0.0.3"
+  }
+}
