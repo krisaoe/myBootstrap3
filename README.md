@@ -20,3 +20,13 @@ $ npm link myBootstrap3
 # using this package:
 import 'myBootstrap3'
 ```
+
+### Rebuild project after change to myBootstrap
+```
+# In project package.json
+"scripts": {
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p start-js start:myBootstrap3",
+    "start:myBootstrap3": "(cd node_modules/myBootstrap3 && npm start)",
+    ...
+```
